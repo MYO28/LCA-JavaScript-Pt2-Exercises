@@ -113,18 +113,18 @@ const me = {
 delete me.age;
 
 //Test to see if it's gone
-console.log(me.age); //Should print: undefined
-console.log(me); //The whole object will no longer include age
+//console.log(me.age); //Should print: undefined
+//console.log(me); //The whole object will no longer include age
 
 //Test it to see the change!
-console.log(me.favouriteFood); //Should print: "Pizza"
-console.log(me); //The whole object will now include favouriteFood
+//console.log(me.favouriteFood); //Should print: "Pizza"
+//console.log(me); //The whole object will now include favouriteFood
 
 //Test 1:Print the whole object
-console.log(me);
+//console.log(me);
 
 //Test 2:Print just the first name
-console.log(me.firstName); //Should print: "Alex"
+//console.log(me.firstName); //Should print: "Alex"
 
 //Test 3: Use it in a sentence!
-console.log("My dream car is a " + me.dreamCar); //Should print: My dream car is a Lamborghini Aventador SVJ
+//console.log("My dream car is a " + me.dreamCar); //Should print: My dream car is a Lamborghini Aventador SVJ
