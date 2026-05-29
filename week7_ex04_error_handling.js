@@ -61,8 +61,3 @@ function removeDuplicates(arr) {
 }
 
 const nums = [3, 1, 4, 1, 5, 9, 2, 6, 5];
-
-console.log(getMax(nums));
-console.log(getMin(nums));
-console.log(getAverage(nums));
-console.log(removeDuplicates(nums));
